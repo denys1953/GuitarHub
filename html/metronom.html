@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images/icons8-guitar-100.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Handjet:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../javascript/header.js"></script>
+    <title>Метроном</title>
+</head>
+<body>
+    <header>
+        <div class="mobile-nav">
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+            <a href="../index.html"><img class="logo" width="65px" height="auto" src="../images/logo.png" alt="">   </a>
+            <div class="menu">
+                <ul>
+                <a href="../index.html"><li>Головна</li></a>
+                <a href="metronom.html"><li>Метроном</li></a>
+                <a href="lessons.html"><li>Уроки</li></a>
+                <a href="about.html"><li>Про мене</li></a>
+                </ul>
+            </div> 
+        </div>
+        <nav class="clearfix">  
+            <a href="../index.html"><img class="logo" width="65px" height="auto" src="../images/logo.png" alt="">   </a>
+            <ul>
+                <a href="../index.html"><li>Головна</li></a>
+                <a href="metronom.html"><li>Метроном</li></a>
+                <a href="lessons.html"><li>Уроки</li></a>
+                <a href="about.html"><li>Про мене</li></a>
+            </ul>
+        </nav>
+    </header>  
+    
+    <div class="container text-center">
+        <div class="label"><input min="20" max="250" type="number" id="value"> BPM</div>
+        <div class="row d-flex justify-content-center">
+            <input value="100" min="20" max="300" type="range" class="form-range col-10 " id="customRange1">
+        </div>
+        <button id="play_button" type="button" class="btn btn-primary">Старт</button>
+        <audio loop id="audio" src="../audio/metronome-85688.wav"></audio>
+    </div>
+    
+    <script src="../javascript/metronom.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icons8-guitar-100.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Handjet:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="javascript/header.js"></script>
+    <title>Guitar hub</title>
+</head>
+<body>
+    
+    <header>
+        <div class="mobile-nav">
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+            <a href="index.html"><img class="logo" width="65px" height="auto" src="images/logo.png" alt="">   </a>
+            <div class="menu">
+                <ul>
+                <a href="index.html"><li>Головна</li></a>
+                <a href="html/metronom.html"><li>Метроном</li></a>
+                <a href="html/lessons.html"><li>Уроки</li></a>
+                <a href="html/about.html"><li>Про мене</li></a>
+                </ul>
+            </div> 
+        </div>
+        <nav class="clearfix">  
+            <a href="index.html"><img class="logo" width="65px" height="auto" src="images/logo.png" alt="">   </a>
+            <ul>
+                <a href="index.html"><li>Головна</li></a>
+                <a href="html/metronom.html"><li>Метроном</li></a>
+                <a href="html/lessons.html"><li>Уроки</li></a>
+                <a href="html/about.html"><li>Про мене</li></a>
+            </ul>
+        </nav>
+    </header>  
+    
+    <main>
+        <div class="wrap">
+            <div style="padding: 0; margin: 0;" class="container-fluid d-flex justify-content-between first row align-self-center">
+                <div class="group-f col-md-6 order-10">
+                    <div class="inputs">
+                        <div class="input-group mb-3">
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected>Виберіть тональність</option>
+                              <option value="1">C</option>
+                              <option value="2">G</option>
+                              <option value="3">D</option>
+                              <option value="4">A</option>
+                              <option value="5">E</option>
+                              <option value="6">B</option>
+                              <option value="7">F#</option>
+                              <option value="8">C#</option>
+                              <option value="9">A<sup>b</sup></option>
+                              <option value="10">E<sup>b</sup></option>
+                              <option value="11">B<sup>b</sup></option>
+                              <option value="12">F</option>
+                            </select>
+                          </div>
+                    </div>
+                        <div class="inputs">
+                            <div class="input-group mb-3">
+                                <select class="custom-select" id="inputGroupSelect02">
+                                <option selected>Виберіть гамму</option>
+                                <option value="2">Мінор</option>
+                                <option value="1">Мажор</option>
+                                </select>
+                            </div>
+                        </div>
+                   
+            
+                        <div class="inputs">
+                            <div class="input-group mb-3">
+                                <input id="inputGroupSelect03" type="text" class="form-control" placeholder="Введіть кількість акордів" aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                 
+                    <button id="button" type="button" class="btn btn-primary">Підтвердити</button>
+                </div>
+                <div class="circle-image col-md-6 order-1 d-flex justify-content-center">
+                    <img class="img-fluid" src="images/503308b1785c4fb98303cbb1f2c89c7b[1].jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #f7f7f7;" class="container-fluid">
+            <div class="images">
+                <div id="images" class="row justify-content-center">
+    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="javascript/main.js"></script>
+    </body>
+</html>

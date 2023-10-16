@@ -1,0 +1,233 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+	width:100%; 
+	background:#333; 
+	height:60px; 
+	line-height:60px;
+	border-bottom:1px solid #2e2e2e;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#3f3f3f;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#232323 1px solid;}
+.menu li:hover{display: block;    background:rgb(146, 146, 146); padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: white; text-decoration:none;}
+.menu a{text-decoration:none; color:white; font-size: 17px}
+.menu a:hover{text-decoration:none; color:white;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+header{display:inline-block; font-size:12px;}
+span{padding-left:20px;}
+a{color:#336699;}
+
+#images {
+    margin-top: 40px;
+}
+nav {
+    background-color: #333; 
+}
+
+.logo {
+    margin-top: -5px;
+}
+
+.wrap {
+    margin-top: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    text-align: right;
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav li {
+    float: left;
+}
+
+nav a  li{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-bottom: none; 
+
+}
+
+a {
+    border-bottom: none; 
+    text-decoration: none;
+
+}
+
+nav a li:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.group-f {
+    width: 100%;
+    margin-top: 10px;
+} 
+
+.first {
+    margin-top: 30px;
+}
+
+.inputs {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 25px;
+    width: 100%;
+}
+
+#images img {
+    width: 256px;
+    height: 200px;
+}
+
+#value {
+    border: none;
+    width: 70px;
+}
+
+#value input:focus {
+    border: none;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.label {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#play_button {
+    width: 30%;
+    align-items: center;
+}
+
+#customRange1 {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.rounded-circle {
+    width: 60px;
+    height: 60px;
+}
+
+/* footer */
+
+footer {
+    float: left;
+    text-align: center;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+
+.foot li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Про себе */
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.about h1{
+    color:#F97300;
+    margin: 2em;
+}
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+.about span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+}
+.about .desc h3{
+    color: #10828C;
+}
+.about .desc p{
+    line-height:2;
+    color:#888;
+}
+
+/* Уроки */
+
+.image {
+    margin-top: 15px;
+}
