@@ -170,6 +170,7 @@ function printChords(arr) {
     }
 
     images.innerHTML = str;
+
 }
 
 button.addEventListener("click", (e) => {

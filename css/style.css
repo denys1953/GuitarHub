@@ -94,6 +94,49 @@ nav li {
     float: left;
 }
 
+.btn {
+    background-color: #F48224;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    border-radius: 0 !important;
+    border: none;
+    transition:all 0.3s ease 0s;
+}
+.btn:hover,
+.btn.active:hover{
+    color: #ffffff;
+}
+.btn:before{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0;
+    background-color:#4749c0;
+    width: 30%;
+    height: 4px;
+    transition:all 0.3s ease 0s;
+}
+.btn:after{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    background-color:#4749c0;
+    width: 30%;
+    height: 4px;
+    transition:all 0.3s ease 0s;
+}
+.btn:hover:before,
+.btn:hover:after,
+.btn.active:before,
+.btn.active:after{
+    width: 100%;
+}
+
+
 nav a  li{
     display: inline-block;
     color: white;
@@ -178,15 +221,8 @@ input::-webkit-inner-spin-button {
 
 /* footer */
 
-footer {
-    float: left;
-    text-align: center;
-    height: 40px;
-    position: absolute;
-    bottom: 0;
-}
-
-.foot li {
+footer ul li {
+    text-decoration: none;
     display: inline;
     padding-right: 10px;
     padding-left: 10px;
